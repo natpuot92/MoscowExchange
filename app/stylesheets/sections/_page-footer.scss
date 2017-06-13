@@ -1,0 +1,37 @@
+.page-footer {
+  padding-top: 58px;
+  padding-bottom: 60px;
+
+  background: #1a1918;
+
+  color: #FFF;
+}
+
+.page-footer__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-footer__title {
+  margin-bottom: 10px;
+
+  font-size: 22px;
+  color: #FFF;
+}
+
+.page-footer__text {
+  margin-bottom: 27px;
+
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.page-footer__logo-container {
+  margin-left: auto;
+}
+
+.page-footer__logo {
+  height: 50px;
+  width: 200px;
+  background: red;
+}

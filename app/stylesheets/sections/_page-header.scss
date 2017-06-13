@@ -1,0 +1,56 @@
+.page-header {
+  height: 100vh;
+  padding-top: 30px;
+  margin-bottom: 118px;
+
+  background: url('../images/header-bg.png') no-repeat center;
+  background-size: cover;
+
+  color: #FFF;
+}
+
+.page-header__container {
+  position: static;
+}
+
+.page-header__logo {
+  height: 50px;
+  width: 200px;
+  margin-bottom: 70px;
+
+  background: no-repeat center;
+}
+
+.page-header__vacancy {
+  margin-bottom: 30px;
+
+  font-size: 24px;
+}
+
+.page-header__vacancy span{
+  font-size: 30px;
+}
+
+.page-header__description {
+  max-width: 548px;
+  margin-bottom: 40px;
+
+  line-height: 1.38;
+}
+
+.page-header__btn {
+  margin-bottom: 129px;
+}
+
+.page-header__tick {
+  position: absolute;
+  bottom: 27px;
+  left: 50%;
+  transform: translateX(100%);
+
+  width: 16px;
+  height: 9px;
+
+  background: url('../images/tick.svg') no-repeat center;
+  background-size: contain;
+}

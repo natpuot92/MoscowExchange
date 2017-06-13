@@ -1,0 +1,15 @@
+.title-line {
+  position: relative;
+}
+
+.title-line::after {
+  content: '';
+  position: absolute;
+  top: -38px;
+
+  display: block;
+  width: 179px;
+  height: 8px;
+
+  background-color: #cc2539;
+}

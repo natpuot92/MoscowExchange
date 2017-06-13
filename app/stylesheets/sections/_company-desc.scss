@@ -1,0 +1,40 @@
+.company-desc {
+  display: flex;
+  align-items: center;
+
+  min-height: 150px;
+  margin-bottom: 118px;
+
+  background: url('../images/team-top.png') no-repeat center;
+  background-size: cover;
+
+  text-align: center;
+}
+
+.company-desc__container {
+  margin: 0 auto;
+
+  width: 531px;
+
+  color: #FFF;
+}
+
+.company-desc__footer {
+  display: flex;
+  align-items: center;
+
+  min-height: 152px;
+
+  background: url('../images/team-bottom.png') no-repeat center;
+  background-size: cover;
+
+  text-align: center;
+}
+
+.company-desc__footer-container {
+  margin: 0 auto;
+
+  width: 806px;
+
+  color: #FFF;
+}

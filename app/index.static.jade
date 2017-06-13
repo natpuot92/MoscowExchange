@@ -8,17 +8,20 @@ head
 
 body
   header.page-header
-    .header__container.container
-      .header__logo
-      .header__vacancy
+    .page-header__container.container
+      .page-header__logo
+      .page-header__vacancy
         | открыта вакансия:
+        br.page-header__vacancy-br
         span
           | «Программист С++»
-      .header__description
-        | Московская Биржа – крупнейшая в России и осточной Европе биржевая Группа приглашает рисоединиться к команде профессионалов в области управления персоналом на позиции руководителя направления автоматизации.
-      a.header__btn.btn(href="#")
+      .page-header__description
+        | Московская Биржа – крупнейшая в России и осточной Европе
+        br.page-header__description-br
+        | биржевая Группа приглашает рисоединиться к команде профессионалов в области управления персоналом на позиции руководителя направления автоматизации.
+      a.page-header__btn.btn(href="#")
         | Откликнуться на вакансию
-      .header__tick
+      .page-header__tick
   main.page-main
     .features
       .features__container.container
@@ -28,29 +31,40 @@ body
           .features__item
             .features__icon.features__icon-1
             .features__text
-             | Профессиональный опыт в крупнейшей в России и Восточной Европе биржевой Группе, две организации которой признаны Банком России системно значимыми инфраструктурными  организациями финансового рынка;
+             | Профессиональный опыт в крупнейшей
+             br.features__text-br
+             | в России и Восточной Европе биржевой Группе, две организации которой признаны Банком России системно значимыми инфраструктурными  организациями финансового рынка;
           .features__item
-            .features__icon.features__icon-1
+            .features__icon.features__icon-2
             .features__text
-              | Разнообразное обучение и доступ в корпоративную библиотеку, насыщенную и интересную внутрикорпоративную жизнь включая участие в спортивных мероприятиях: триатлон, футбол, волейбол, йога в офисе и многое другое;
+              | Разнообразное обучение и доступ в корпоративную библиотеку, насыщенную и интересную внутрикорпоративную жизнь включая участие
+              br.features__text-br
+              | в спортивных мероприятиях: триатлон, футбол, волейбол, йога в офисе и многое другое;
           .features__item
-            .features__icon.features__icon-1
+            .features__icon.features__icon-3
             .features__text
               | Достойную заработную плату, бонусы;
           .features__item
-            .features__icon.features__icon-1
+            .features__icon.features__icon-4
             .features__text
               | Оформление полностью в соответствии с ТК РФ;
           .features__item
-            .features__icon.features__icon-1
+            .features__icon.features__icon-5
             .features__text
-              | Отличный социальный пакет, включающий расширенную медицинскую страховку, скидки на фитнес и другие льготные программы от партнеров;
+              | Отличный социальный пакет, включающий расширенную медицинскую страховку,
+              br.features__text-br
+              | скидки на фитнес и другие льготные
+              br.features__text-br
+              | программы от партнеров;
           .features__item
-            .features__icon.features__icon-1
+            .features__icon.features__icon-6
             .features__text
-              | И, конечно, дружный коллектив и комфортные условия работы;
+              | И, конечно, дружный коллектив
+              br.features__text-br
+              | и комфортные условия работы;
     .company-desc
-      | Команда Группы "Московская Биржа" насчитывает уже более 1500 человек, но новых интересных роектов и задач гораздо больше! Именно поэтому мы ищем талантливых кандидатов.
+      .company-desc__container
+        | Команда Группы "Московская Биржа" насчитывает уже более 1500 человек, но новых интересных роектов и задач гораздо больше! Именно поэтому мы ищем талантливых кандидатов.
     .tasks
       .tasks__container.container
         .tasks__title.title-line
@@ -68,6 +82,8 @@ body
             | Разработка документации.
     .requirements
       .requirements__container.container
+        .requirements__title.title-line
+          | Для этого важно:
         ul.requirements__list
           li.requirements__item
             | Знание языков программирования: C++, Python;
@@ -76,12 +92,15 @@ body
           li.requirements__item
             | Знание систем контроля версий и баг-трэкинга;
           li.requirements__item
-            | Общая грамотность и ориентация в современном программном обеспечении и технологиях программирования;
+            | Общая грамотность и ориентация в современном программном обеспечении
+            br.requirements__item-br
+            | и технологиях программирования;
           li.requirements__item
             | Грамотная письменная и устная речь.
     .preferably
       .preferably__container.container
         .preferably__title.title-line
+          | Желательно:
         ul.preferably__list
           li.preferably__item
             | Опыт разработки многопоточных приложений желательно;
@@ -89,17 +108,24 @@ body
             | Опыт разработки серверных приложений под Linux и/или Mac.
         .preferably__btn.btn
           | Откликнуться на вакансию
-    .footer__desc
-      | Команда Группы "Московская Биржа" насчитывает уже более 1500 человек, но новых нтересных проектов и задач гораздо больше! Именно поэтому мы ищем талантливых кандидатов и ждём ваше резюме!
+    .company-desc__footer
+      .company-desc__footer-container
+        | Команда Группы "Московская Биржа" насчитывает уже более 1500 человек, но новых нтересных проектов и задач гораздо больше! Именно поэтому мы ищем талантливых кандидатов и ждём ваше резюме!
   footer.page-footer
     .page-footer__container.container
       .page-footer__text-container
         .page-footer__title
+          | Мы ожидаем от вас разделения наших ценностей:
         .page-footer__text
-          | мы отвечаем за будущее компании, мы в партнерстве с клиентами, мы развиваемся и готовы к изменениям, мы открыты и порядочны.
+          | мы отвечаем за будущее компании, мы в партнерстве с клиентами,
+          br.page-footer__text-br
+          | мы развиваемся и готовы к изменениям,
+          br.page-footer__text-br
+          | мы открыты и порядочны.
         .page-footer__btn.btn
           | Откликнуться на вакансию
-      .page-footer__logo
+      .page-footer__logo-container
+        .page-footer__logo
 
   script(src="javascripts/vendor.js")
   script(src="javascripts/app.js")

@@ -1,0 +1,44 @@
+.tasks {
+  position: relative;
+  margin-bottom: 138px;
+
+  &::before {
+    position: absolute;
+    right: -86px;
+    bottom: -136px;
+    content: '';
+    display: block;
+    width: 274px;
+    height: 274px;
+
+    background: #db0725;
+    border-radius: 50%;
+  }
+}
+
+.tasks__title.title-line {
+  margin-bottom: 30px;
+
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.tasts__item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 24px;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;;
+
+    display: block;
+    width: 10px;
+    height: 10px;
+
+    background: #db0725;
+    border-radius: 50%;
+  }
+}
