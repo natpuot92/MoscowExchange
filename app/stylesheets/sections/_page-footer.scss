@@ -1,0 +1,245 @@
+.page-footer {
+  min-height: 756px;
+  padding-bottom: 20px;
+  background: url('../images/background-footer.png') no-repeat top, linear-gradient(to top, rgb(0,174,61) 0%, rgb(18,150,57) 100%);
+  background-size: cover;
+}
+
+.page-footer__title {
+  position: relative;
+  margin-top: 118px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 138px;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -34px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 2px;
+    background: white;
+  }
+}
+
+.page-footer__stages {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.page-footer__stage {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  margin-bottom: 80px;
+  width: 250px;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+   &::after {
+    content: '';
+    position: absolute;
+    top: 63px;
+    right: -64px;
+    display: block;
+    width: 94px;
+    height: 50px;
+    background: url('../images/arrow.svg') no-repeat center;
+  }
+}
+
+.page-footer__stage:last-child {
+  margin: 0;
+}
+
+.page-footer__stage-icon {
+  display: inline-block;
+  height: 160px;
+  width: 165px;
+  margin-bottom: 45px;
+}
+
+.page-footer__stage-icon-1 {
+  background: url('../images/application.png') no-repeat center;
+}
+
+.page-footer__stage-icon-2 {
+  background: url('../images/video.png') no-repeat center;
+}
+
+.page-footer__stage-icon-3 {
+  background: url('../images/online.png') no-repeat center;
+}
+
+.page-footer__stage-icon-4 {
+  background: url('../images/invitation.png') no-repeat center;
+}
+.page-footer__stage:last-child::after {
+  display: none;
+}
+
+.page-footer__stage-text {
+  text-align: center;
+}
+
+
+
+@media(max-width: 1170px) {
+  .page-footer__stage::after {
+    right: -55px;
+  }
+}
+
+@media(max-width: 1180px) {
+  .page-footer__stage::after {
+    display: none;
+  }
+}
+
+@media(max-width: 960px) {
+  .page-footer {
+   background:  url('../images/mobile-background.png') no-repeat center, linear-gradient(to top, rgb(0,174,61) 0%, rgb(18,150,57) 100%);
+    background-size: cover;
+  }
+
+  .page-footer__container {
+    margin-bottom: 30px;
+  }
+
+  .page-footer__title {
+    margin-bottom: 132px;
+    font-size: 48px;
+    line-height: 24px;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .page-footer__stages {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .page-footer__stage {
+    display: inline-block;
+    width: 100%;
+    min-height: 343px;
+    margin: 0;
+    margin-bottom: 110px;
+    text-align: left;
+  }
+
+  .page-footer__stage-text-container {
+    display: inline-block;
+    min-height: 343px;
+    width: 40%;
+    vertical-align: top;
+  }
+
+  .page-footer__stage-text {
+    display: table-cell;
+    height: 343px;
+    vertical-align: middle;
+    font-size: 48px;
+    text-align: left;
+  }
+
+  .page-footer__stage-icon {
+    display: inline-block;
+    width: 402px;
+  }
+
+  .page-footer__stage-icon-1 {
+    height: 328px;
+    background-size: contain;
+  }
+
+  .page-footer__stage-icon-2 {
+    height: 334px;
+    background-size: contain;
+  }
+
+  .page-footer__stage-icon-3 {
+    height: 306px;
+    background-size: contain;
+  }
+
+  .page-footer__stage-icon-4 {
+    height: 337px;
+    background-size: contain;
+  }
+
+}
+
+@media(max-width: 800px) {
+  .page-footer__stage-text {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 730px) {
+
+  .page-footer__container {
+    margin-bottom: 70px;
+  }
+
+
+  .page-footer__stage-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .page-footer__stage-text-container {
+    display: block;
+    margin: 0 auto;
+    min-height: 0;
+    width: auto;
+    vertical-align: top;
+    text-align: center;
+  }
+
+  .page-footer__stage-text {
+    display: inline-block;
+    height: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .page-footer__title {
+    font-size: 38px;
+    margin-bottom: 80px;
+  }
+
+  .page-footer__stage-text {
+    font-size: 28px;
+  }
+
+  .page-footer__stage-icon {
+    width: 300px;
+  }
+
+  .page-footer__stage-icon-1 {
+    height: 270px;
+  }
+
+  .page-footer__stage-icon-2 {
+    height: 284px;
+  }
+
+  .page-footer__stage-icon-3 {
+    height: 274px;
+  }
+
+  .page-footer__stage-icon-4 {
+    height: 277px;
+  }
+}

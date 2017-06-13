@@ -1,0 +1,151 @@
+.company-desc {
+  margin-top: 160px;
+  margin-bottom: 175px;
+}
+
+.company-desc__title {
+  position: relative;
+  text-align: center;
+  font-size: 26px;
+  color: #129639;
+  margin-bottom: 107px;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -34px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 2px;
+    background: #129639;
+  }
+}
+
+.company-desc__text {
+  line-height: 24px;
+  text-align: center;
+}
+
+.company-desc__text-bold-br {
+  display: none;
+}
+
+.company-desc__text-command-br {
+  display: none;
+}
+
+.span-br {
+  display: none;
+}
+
+@media(max-width: 960px) {
+  .company-desc {
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 79px;
+    max-width: 746px;
+  }
+
+  .company-desc__title {
+    display: none;
+  }
+
+  .company-desc__text {
+    font-size: 36px;
+    line-height: 60px;
+  }
+
+  .company-desc__text-bold {
+    font-size: 48px;
+  }
+
+  .company-desc__text__command {
+    display: none;
+  }
+
+  .company-desc__text-italic {
+    font-style: italic;
+  }
+
+  .span-br {
+    display: block;
+  }
+}
+
+@media(max-width: 820px) {
+  .company-desc {
+    margin-top: 70px;
+    margin-bottom: 65px;
+  }
+
+  .company-desc__text {
+    font-size: 33px;
+    line-height: 55px;
+  }
+
+  .company-desc__text-bold {
+    font-size: 45px;
+  }
+
+  .company-desc__text-bold-br {
+    display: block;
+  }
+}
+
+@media(max-width: 766px) {
+  .company-desc__text {
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  .company-desc__text-bold {
+    font-size: 43px;
+  }
+}
+
+@media(max-width: 766px) {
+  .company-desc__text {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .company-desc__text-bold {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 766px) {
+  .company-desc__text {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .company-desc__text-bold {
+    font-size: 36px;
+  }
+}
+
+@media(max-width: 555px) {
+  .company-desc__text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .company-desc__text-bold {
+    font-size: 32px;
+  }
+}
+
+@media(max-width: 555px) {
+  .company-desc__text {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .company-desc__text-bold {
+    font-size: 28px;
+  }
+}
+

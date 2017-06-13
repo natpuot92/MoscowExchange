@@ -1,0 +1,175 @@
+.page-header {
+  width: 100%;
+  font-family: "Roboto-Regular";
+  color: white;
+  background: #129639 url('../images/background-header.png') no-repeat center;
+  background-size: cover;
+}
+
+.page-header__container {
+  display: block;
+  min-height: 1010px;
+  padding-top: 117px;
+  text-align: center;
+  overflow: visible;
+}
+
+.page-header__logo {
+  margin: 0 auto;
+  width: 182px;
+  height: 182px;
+  margin-bottom: 50px;
+  background: url('../images/logo.png') no-repeat center;
+  background-size: contain;
+}
+
+.page-header__company {
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.2em;
+}
+
+.page-header__btn {
+  margin: 0 auto;
+  margin-bottom: 55px;
+}
+
+.page-header__time-place {
+  margin-bottom: 60px;
+  font-size: 26.07px;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.page-header__little {
+  font-size: 26px;
+}
+
+@media (max-width: 960px) {
+  .page-header {
+    min-height: 1380px;
+  }
+
+  .page-header__logo {
+    width: 251px;
+    height: 251px;
+    margin-bottom: 56px;
+  }
+
+  .page-header__company {
+    font-size: 46px;
+    line-height: 72px;
+    margin-bottom: 60px;
+  }
+
+  .page-header__time-place {
+    font-size: 48px;
+
+  }
+
+  .page-header__litle {
+    font-size: 36px;
+  }
+}
+
+
+
+@media (max-width: 890px) {
+  .page-header {
+    min-height: 0;
+    padding-bottom: 180px;
+  }
+
+  .page-header__container {
+    min-height: 0;
+    padding-top: 100px;
+}
+
+  .page-header__logo {
+    width: 182px;
+    height: 182px;
+    margin-bottom: 56px;
+  }
+
+  .page-header__company {
+    font-size: 36px;
+    line-height: 52px;
+    margin-bottom: 60px;
+  }
+
+  .page-header__time-place {
+    font-size: 36px;
+  }
+
+  .page-header__litle {
+     margin-bottom: 100px;
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-header {
+    padding-bottom: 180px;
+  }
+
+   .page-header__container {
+    padding-top: 60px;
+  }
+
+  .page-header__logo {
+    width: 182px;
+    height: 182px;
+    margin-bottom: 36px;
+  }
+
+  .page-header__company {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 45px;
+  }
+
+  .page-header__time-place {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 45px;
+  }
+
+  .page-header__litle {
+    margin-bottom: 70px;
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .page-header__container {
+    padding-top: 40px;
+  }
+
+  .page-header__logo {
+    width: 182px;
+    height: 182px;
+    margin-bottom: 26px;
+  }
+
+  .page-header__company {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 35px;
+  }
+
+  .page-header__time-place {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 35px;
+  }
+
+  .page-header__litle {
+    margin-bottom: 55px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
