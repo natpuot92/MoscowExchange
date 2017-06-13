@@ -7,7 +7,7 @@ head
   link(rel="stylesheet" href="stylesheets/app.css")
 
 body
-  .header
+  header.page-header
     .header__container.container
       .header__logo
       .header__vacancy
@@ -15,11 +15,93 @@ body
         span
           | «Программист С++»
       .header__description
-        | Московская Биржа – крупнейшая в России и осточной Европе биржевая Группа приглашает рисоединиться к команде профессионалов в области управления персоналом на позиции руководителя направления автоматизации. script(src="javascripts/vendor.js")
-    a.header__btn.btn(href="#")
-      | Откликнуться на вакансию
+        | Московская Биржа – крупнейшая в России и осточной Европе биржевая Группа приглашает рисоединиться к команде профессионалов в области управления персоналом на позиции руководителя направления автоматизации.
+      a.header__btn.btn(href="#")
+        | Откликнуться на вакансию
+      .header__tick
+  main.page-main
+    .features
+      .features__container.container
+        .features__title.title-line
+          | Работая в Группе «Московская Биржа», вы получите:
+        .features__items
+          .features__item
+            .features__icon.features__icon-1
+            .features__text
+             | Профессиональный опыт в крупнейшей в России и Восточной Европе биржевой Группе, две организации которой признаны Банком России системно значимыми инфраструктурными  организациями финансового рынка;
+          .features__item
+            .features__icon.features__icon-1
+            .features__text
+              | Разнообразное обучение и доступ в корпоративную библиотеку, насыщенную и интересную внутрикорпоративную жизнь включая участие в спортивных мероприятиях: триатлон, футбол, волейбол, йога в офисе и многое другое;
+          .features__item
+            .features__icon.features__icon-1
+            .features__text
+              | Достойную заработную плату, бонусы;
+          .features__item
+            .features__icon.features__icon-1
+            .features__text
+              | Оформление полностью в соответствии с ТК РФ;
+          .features__item
+            .features__icon.features__icon-1
+            .features__text
+              | Отличный социальный пакет, включающий расширенную медицинскую страховку, скидки на фитнес и другие льготные программы от партнеров;
+          .features__item
+            .features__icon.features__icon-1
+            .features__text
+              | И, конечно, дружный коллектив и комфортные условия работы;
+    .company-desc
+      | Команда Группы "Московская Биржа" насчитывает уже более 1500 человек, но новых интересных роектов и задач гораздо больше! Именно поэтому мы ищем талантливых кандидатов.
+    .tasks
+      .tasks__container.container
+        .tasks__title.title-line
+          | В зону вашей ответственности будет входить:
+        ul.tasks__list
+          li.tasts__item
+            | Разработка инструментария тестирования;
+          li.tasts__item
+            | Развитие фреймворка автотестирования;
+          li.tasts__item
+            | Написание сценарных и модульных тестов;
+          li.tasts__item
+            | Оказание консультаций сотрудникам подразделения, занимающегося эксплуатацией;
+          li.tasts__item
+            | Разработка документации.
+    .requirements
+      .requirements__container.container
+        ul.requirements__list
+          li.requirements__item
+            | Знание языков программирования: C++, Python;
+          li.requirements__item
+            | Иметь опыт организации модульного тестирования приложений;
+          li.requirements__item
+            | Знание систем контроля версий и баг-трэкинга;
+          li.requirements__item
+            | Общая грамотность и ориентация в современном программном обеспечении и технологиях программирования;
+          li.requirements__item
+            | Грамотная письменная и устная речь.
+    .preferably
+      .preferably__container.container
+        .preferably__title.title-line
+        ul.preferably__list
+          li.preferably__item
+            | Опыт разработки многопоточных приложений желательно;
+          li.preferably__item
+            | Опыт разработки серверных приложений под Linux и/или Mac.
+        .preferably__btn.btn
+          | Откликнуться на вакансию
+    .footer__desc
+      | Команда Группы "Московская Биржа" насчитывает уже более 1500 человек, но новых нтересных проектов и задач гораздо больше! Именно поэтому мы ищем талантливых кандидатов и ждём ваше резюме!
+  footer.page-footer
+    .page-footer__container.container
+      .page-footer__text-container
+        .page-footer__title
+        .page-footer__text
+          | мы отвечаем за будущее компании, мы в партнерстве с клиентами, мы развиваемся и готовы к изменениям, мы открыты и порядочны.
+        .page-footer__btn.btn
+          | Откликнуться на вакансию
+      .page-footer__logo
 
-
+  script(src="javascripts/vendor.js")
   script(src="javascripts/app.js")
 
   script.
