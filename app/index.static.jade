@@ -8,8 +8,9 @@ head
 
 body
   header.page-header
-    .page-header__container.container
+    .container.page-header__container-logo
       .page-header__logo
+    .page-header__container.container
       .page-header__vacancy
         | открыта вакансия:
         br.page-header__vacancy-br
@@ -21,7 +22,7 @@ body
         | биржевая Группа приглашает рисоединиться к команде профессионалов в области управления персоналом на позиции руководителя направления автоматизации.
       a.page-header__btn.btn(href="#")
         | Откликнуться на вакансию
-      .page-header__tick
+    .page-header__tick
   main.page-main
     .features
       .features__container.container
@@ -106,7 +107,7 @@ body
             | Опыт разработки многопоточных приложений желательно;
           li.preferably__item
             | Опыт разработки серверных приложений под Linux и/или Mac.
-        .preferably__btn.btn
+        a.preferably__btn.btn(href="#")
           | Откликнуться на вакансию
     .company-desc__footer
       .company-desc__footer-container
@@ -122,7 +123,7 @@ body
           | мы развиваемся и готовы к изменениям,
           br.page-footer__text-br
           | мы открыты и порядочны.
-        .page-footer__btn.btn
+        a.page-footer__btn.btn(href="#")
           | Откликнуться на вакансию
       .page-footer__logo-container
         .page-footer__logo

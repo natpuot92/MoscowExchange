@@ -1,4 +1,10 @@
 .page-header {
+  position: relative;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
   min-height: 100vh;
   padding-top: 30px;
   margin-bottom: 118px;
@@ -10,7 +16,12 @@
 }
 
 .page-header__container {
-  position: static;
+  position: initial;
+  width: 100%;
+}
+
+.page-header__container-logo {
+  width: 100%;
 }
 
 .page-header__logo {
@@ -19,6 +30,7 @@
   margin-bottom: 70px;
 
   background: url('../images/moscow-logo.png') no-repeat center;
+  background-size: contain;
 }
 
 .page-header__vacancy {
@@ -43,7 +55,7 @@
 }
 
 .page-header__tick {
-  position: absolute;
+  position: relative;
   bottom: 27px;
   left: 50%;
   transform: translateX(-50%);
@@ -54,6 +66,7 @@
   background: url('../images/tick.svg') no-repeat center;
   background-size: contain;
 }
+
 
 @media (max-width: 550px) {
   .page-header {
