@@ -60,3 +60,38 @@
 .features__icon-6 {
   background: url('../images/round.svg') no-repeat center left;
 }
+
+@media (max-width: 937px) {
+  .features__text-br {
+    display: none;
+  }
+}
+
+@media (max-width: 934px) {
+  .features__items {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .features__item {
+    margin-right: 0;
+    max-width: 44%;
+  }
+}
+
+@media (max-width: 550px)  {
+  .features__item {
+    max-width: none;
+  }
+
+  .features__text-br {
+    display: block;
+  }
+}
+
+@media (max-width: 423px) {
+  .features__text-br {
+    display: none;
+  }
+}

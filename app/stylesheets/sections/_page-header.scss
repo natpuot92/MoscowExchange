@@ -1,9 +1,9 @@
 .page-header {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 30px;
   margin-bottom: 118px;
 
-  background: url('../images/header-bg.png') no-repeat center;
+  background: url('../images/header-bg.png') no-repeat 40%;
   background-size: cover;
 
   color: #FFF;
@@ -18,7 +18,7 @@
   width: 200px;
   margin-bottom: 70px;
 
-  background: no-repeat center;
+  background: red no-repeat center;
 }
 
 .page-header__vacancy {
@@ -46,11 +46,33 @@
   position: absolute;
   bottom: 27px;
   left: 50%;
-  transform: translateX(100%);
+  transform: translateX(-50%);
 
   width: 16px;
   height: 9px;
 
   background: url('../images/tick.svg') no-repeat center;
   background-size: contain;
+}
+
+@media (max-width: 550px) {
+  .page-header {
+    margin-bottom: 68px;
+  }
+}
+
+@media(max-width: 500px) {
+  .page-header__description-br {
+    display: none;
+  }
+}
+
+@media(max-width: 352px) {
+  .page-header {
+    min-height: 100px;
+  }
+
+  .page-header__container {
+    position: relative;
+  }
 }

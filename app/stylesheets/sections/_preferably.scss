@@ -47,3 +47,22 @@
   background: #db0725;
   border: 1px solid #db0725;
 }
+
+@media (max-width: 1000px) {
+  .preferably::before {
+    right: 10%;
+  }
+}
+
+@media (max-width: 823px) {
+  .preferably::before {
+    top: 31px;
+    right: 6%;
+  }
+}
+
+@media (max-width: 500px) {
+  .preferably::before {
+    display: none;
+  }
+}

@@ -35,3 +35,19 @@
   width: 200px;
   background: red;
 }
+
+@media (max-width: 673px) {
+  .page-footer__container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-footer__logo-container {
+    margin: 0;
+  }
+
+  .page-footer__btn {
+    margin-bottom: 40px;
+  }
+}

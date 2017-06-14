@@ -28,3 +28,9 @@
     border-radius: 50%;
   }
 }
+
+@media(max-width: 630px) {
+  .requirements__item-br {
+    display: none;
+  }
+}

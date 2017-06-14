@@ -4,6 +4,7 @@
 
   min-height: 150px;
   margin-bottom: 118px;
+  padding: 0 18px;
 
   background: url('../images/team-top.png') no-repeat center;
   background-size: cover;
@@ -14,7 +15,7 @@
 .company-desc__container {
   margin: 0 auto;
 
-  width: 531px;
+  max-width: 531px;
 
   color: #FFF;
 }
@@ -24,6 +25,7 @@
   align-items: center;
 
   min-height: 152px;
+  padding: 0 18px;
 
   background: url('../images/team-bottom.png') no-repeat center;
   background-size: cover;
@@ -34,7 +36,7 @@
 .company-desc__footer-container {
   margin: 0 auto;
 
-  width: 806px;
+  max-width: 806px;
 
   color: #FFF;
 }
