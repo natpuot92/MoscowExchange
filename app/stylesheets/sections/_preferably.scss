@@ -46,22 +46,20 @@
 .preferably__btn {
   background: #db0725;
   border: 1px solid #db0725;
+  transition: 0.2s;
+
+  &:hover {
+    background: #ed0727;
+  }
 }
 
 @media (max-width: 1000px) {
   .preferably::before {
-    right: 10%;
-  }
-}
-
-@media (max-width: 823px) {
-  .preferably::before {
-    top: 31px;
     right: 6%;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .preferably::before {
     display: none;
   }

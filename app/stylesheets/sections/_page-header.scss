@@ -52,6 +52,11 @@
 
 .page-header__btn {
   margin-bottom: 129px;
+  transition: 0.2s;
+  &:hover{
+    background: #fff;
+    color: black;
+  }
 }
 
 .page-header__tick {

@@ -26,6 +26,14 @@
   line-height: 1.63;
 }
 
+.page-footer__btn {
+  transition: 0.2s;
+  &:hover {
+    background: #fff;
+    color: black;
+  }
+}
+
 .page-footer__logo-container {
   margin-left: auto;
 }
