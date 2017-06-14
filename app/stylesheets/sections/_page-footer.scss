@@ -33,7 +33,22 @@
 .page-footer__logo {
   height: 50px;
   width: 200px;
-  background: red;
+  background: url('../images/moscow-logo.png') no-repeat center;
+}
+
+@media (max-width: 840px) {
+  .page-footer__container {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .page-footer__logo-container {
+    margin: 0;
+  }
+
+  .page-footer__btn {
+    margin-bottom: 70px;
+  }
 }
 
 @media (max-width: 673px) {
